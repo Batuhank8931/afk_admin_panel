@@ -1,0 +1,41 @@
+.table-container {
+    height: 60vh; /* Set a fixed height for the table container */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    position: relative;
+  }
+  
+  table {
+    min-width: 100%; /* Ensure the table takes at least 100% of the container width */
+  }
+  
+  table th,
+  table td {
+    white-space: nowrap;
+  }
+  
+  thead th {
+    position: sticky;
+    top: 0;
+    background-color: #343a40; /* Dark color to match the header row */
+    color: white;
+    z-index: 1;
+  }
+  
+  .table-dark th {
+    background-color: #343a40;
+  }
+  
+  th, td {
+    vertical-align: middle;
+  }
+  
+  .modal.show {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-dialog {
+    margin: 1.75rem auto;
+  }
+  

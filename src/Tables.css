@@ -1,0 +1,68 @@
+.table-container {
+    height: 60vh; /* Set a fixed height for the table container */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    position: relative;
+  }
+
+  .height_class{
+    max-width: 2000px !important;
+  }
+  
+  table {
+    min-width: 100%; /* Ensure the table takes at least 100% of the container width */
+  }
+  
+  table th,
+  table td {
+    white-space: nowrap;
+  }
+  
+  .frozen-col {
+    position: sticky;
+    left: 0;
+    background-color: white;
+    z-index: 2;
+  }
+  
+  thead th {
+    position: sticky;
+    top: 0;
+    background-color: #343a40; /* Dark color to match the header row */
+    color: white;
+    z-index: 1;
+  }
+  
+  /* Column color styles */
+  .column-date { background-color: #f1f8e9; }
+  .column-cinsiyet { background-color: #f8f9fa; }
+  .column-tcKimlik { background-color: #e9ecef; }
+  .column-ad { background-color: #dee2e6; }
+  .column-soyad { background-color: #ced4da; }
+  .column-medeniDurum { background-color: #adb5bd; }
+  .column-ikametAdresi { background-color: #6c757d; }
+  .column-sehir { background-color: #495057; }
+  .column-semt { background-color: #343a40; }
+  .column-cepTelefonu { background-color: #212529; }
+  .column-email { background-color: #ffc107; }
+  .column-calismaSekli { background-color: #fd7e14; }
+  .column-aylikGelir { background-color: #dc3545; }
+  .column-ekGelir { background-color: #d63384; }
+  .column-ekGelirAciklama { background-color: #6f42c1; }
+  .column-sigortaTuru { background-color: #0d6efd; }
+  .column-modelYili { background-color: #6610f2; }
+  .column-marka { background-color: #6f42c1; }
+  .column-aracTipi { background-color: #d63384; }
+  .column-secilenArac { background-color: #fd7e14; }
+  .column-kaskoKodu { background-color: #ffc107; }
+  .column-kaskoDegeri { background-color: #212529; }
+  .column-noterSatisBedeli { background-color: #343a40; }
+  .column-konsinyeArac { background-color: #495057; }
+  .column-ruhsatSahibi { background-color: #6c757d; }
+  .column-plaka { background-color: #adb5bd; }
+  .column-kilometre { background-color: #ced4da; }
+  .column-krediTutari { background-color: #dee2e6; }
+  .column-krediVadesi { background-color: #e9ecef; }
+  .column-bankalar { background-color: #f8f9fa; }
+  .column-evraklar { background-color: #f8f9fa; }
+  
